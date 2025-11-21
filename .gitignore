@@ -1,0 +1,34 @@
+--- Python Basics ---
+
+Compiled files (the pycache folders)
+
+pycache/
+*.py[cod]
+*$py.class
+
+--- Virtual Environments ---
+
+Avoid uploading your virtual environment (large and system-specific)
+
+.venv/
+env/
+venv/
+ENV/
+
+--- Flet & IDEs ---
+
+Build artifacts and editor configurations
+
+build/
+dist/
+assets/
+.vscode/
+.idea/
+
+--- Others ---
+
+Operating system or temporary files
+
+.DS_Store
+Thumbs.db
+storage/
